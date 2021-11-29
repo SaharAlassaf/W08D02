@@ -35,13 +35,16 @@ Dependencies are managed through `package.json`.
 In that file you'll find two sections:
 
 ## `dependencies`
-| express                         | Node.js web framework.                                                |
-| dotenv                          | Loads environment variables from .env file.                            |
-| mongoose                        | MongoDB ODM.                                                          |
-| bcrypt-nodejs                   | Library for hashing and salting user passwords.                       |
-| cors                           |  for providing a Connect/Express middleware that can be used to enable CORS with various options.                                                      |
-| jsonwebtoken                   | An implementation of [JSON Web Tokens](https://datatracker.ietf.org/doc/html/rfc7519).                       |
-| morgan                        | HTTP request logger middleware for node.js                                                          |
-| nodemon                        | nodemon is a tool that helps develop node.js based applications by automatically restarting the node application when file changes in the directory are detected.                                                          |
+
+| Package                         | Description                                                                             |
+| ------------------------------- | --------------------------------------------------------------------------------------- |
+| express                         | Node.js web framework.                                                                  |
+| dotenv                          | Loads environment variables from .env file.                                             |
+| mongoose                        | MongoDB ODM.                                                                            |
+| bcrypt-nodejs                   | Library for hashing and salting user passwords.                                         |
+| cors                           |  for providing a Connect/Express middleware that can be used to enable CORS with various options.                                                                                                                    |
+| jsonwebtoken                   | An implementation of [JSON Web Tokens](https://datatracker.ietf.org/doc/html/rfc7519).   |
+| morgan                        | HTTP request logger middleware for node.js                                                |
+| nodemon                        | nodemon is a tool that helps develop node.js based applications by automatically restarting the node application when file changes in the directory are detected.                                                                                      |
 
 
