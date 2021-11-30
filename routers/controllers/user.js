@@ -12,7 +12,7 @@ const signup = async (req, res) => {
   const newUser = new userModel({
     email: savedEmail,
     password: hashedPassword,
-    role,
+    role
   });
 
   newUser
