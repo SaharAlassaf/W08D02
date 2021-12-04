@@ -33,7 +33,6 @@ npm run dev
 
 # Dependencies
 Dependencies are managed through `package.json`.
-In that file you'll find two sections:
 
 ## `dependencies`
 
